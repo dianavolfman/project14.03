@@ -1,0 +1,18 @@
+﻿<Page x:Class="project14._03.Pages.ButtonPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:project14._03.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ButtonPage">
+
+    <Grid>
+        <Button Content="Линейное уравнение" Margin="415,120,10,9.6" FontSize="30" Click="Button_Click"/>
+        <Button Content="Квадратное уравнение" Margin="10,120,415,9.6" FontSize="30"/>
+        <Label Content="Вычисление корней" Margin="615,10,16,399.6" FontSize="16"/>
+        <Image Margin="10,10,680,349.6" Source="/project14.03;component/Image1.png" Stretch="Fill"/>
+
+    </Grid>
+</Page>
